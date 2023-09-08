@@ -12,7 +12,7 @@ function Header() {
 					<Image src={logo} alt='nextflix' width={100} height={100} className='cursor-pointer' />
 				</h1>
 			</div>
-			<ul className='space-x-4 md:flex'>
+			<ul className='space-x-4 hidden md:flex'>
 				<li className='headerLink'>HOME</li>
 				<li className='headerLink'>TV Show</li>
 				<li className='headerLink'>Movies</li>

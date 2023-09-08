@@ -1,7 +1,18 @@
-export default function Home() {
+import type { NextPage } from 'next';
+import Head from 'next/head';
+
+const Home: NextPage = () => {
 	return (
-		<main>
-			<h1>NEXTFLIX</h1>
-		</main>
+		<>
+			<Head>
+				<title>NEXTFLIX</title>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
+			<main>
+				<h1>NEXTFLIX</h1>
+			</main>
+		</>
 	);
-}
+};
+
+export default Home;
